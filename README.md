@@ -22,14 +22,14 @@
 ```
 ex) $ ./base64.py -i input.txt -o output.txt
 
-	$ cat output.txt
-	SGVsbG8gd29ybGQK
-	$ ./base64.py -i output.txt -o revers.txt -d
+    $ cat output.txt
+    SGVsbG8gd29ybGQK
+    $ ./base64.py -i output.txt -o revers.txt -d
 
-	$ cat revers.txt
-	Hello world
+    $ cat revers.txt
+    Hello world
 
-	$
+    $
 ```
 
 ## 逆ポーランド記法に関する問題
