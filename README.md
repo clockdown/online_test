@@ -1,5 +1,6 @@
 # とある会社の技術テストで出された問題の解答
 最近とある会社の技術テストを受けたんですが、３問あるうちの３問とも答えられなくて悔しかったので解き直したもののコードを上げておきます。
+安らかに成仏して
 
 ## Base64に関する問題
 １問目はBase64に関する出題でした。  
@@ -20,7 +21,10 @@
 -e と -d のどちらも使用しなかった場合はエンコードになるようにしてあります。
 
 ```
-ex) $ ./base64.py -i input.txt -o output.txt
+ex) $ cat input.txt
+    Hello world
+
+    $ ./base64.py -i input.txt -o output.txt
 
     $ cat output.txt
     SGVsbG8gd29ybGQK
